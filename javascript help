@@ -1,0 +1,10 @@
+<script>
+		document.getElementById("color1").addEventListener("click",
+			function() {
+				document.getElementById("JS1").style.backgroundColor = 
+					document.getElementById("color1").value;
+			});
+      
+      $(dcoument).click(function(){
+			$('#JS3').css('background-color', $('#color3').val());
+				});
